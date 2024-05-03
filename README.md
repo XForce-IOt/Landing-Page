@@ -1,7 +1,8 @@
 # Pet Health Collar Landing Page
 
 ## Description
-This repository hosts the official landing page for the **Pet Health Collar**, an innovative device designed to monitor pet health in real-time. The page is responsive, ensuring optimal viewing on both mobile and desktop devices. It provides detailed information about the product's features, user testimonials, pricing information, and contact options.
+This repository hosts the official landing page for the **Pet Health Collar**, an innovative device designed to monitor pet health in real-time. The page is responsive, ensuring optimal viewing on both mobile and desktop devices. It provides detailed information about the product's features, user testimonials, pricing information, and contact options.  
+Link: [https://fredy002.github.io/Landing-Page-Pet-Health/](https://fredy002.github.io/Landing-Page-Pet-Health/)
 
 ## Features
 - **Full Responsiveness:** Designed to work efficiently across all devices and screen sizes.
