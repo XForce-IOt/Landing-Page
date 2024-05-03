@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Fredy Antonio Almeyda Alania" />
-  <meta name="description" content="Monitorea y mejora la salud de tu mascota con nuestro collar inteligente. Mantente informado y reacciona rápidamente con notificaciones en tiempo real." />
+  <meta name="description"
+    content="Monitorea y mejora la salud de tu mascota con nuestro collar inteligente. Mantente informado y reacciona rápidamente con notificaciones en tiempo real." />
   <link rel="icon" href="assets/favicon.ico" type="image/png" alt="Icono de Pet Health" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
@@ -22,37 +23,45 @@
     <ul class="nav__links">
       <li class="link"><a href="#home">Home</a></li>
       <li class="link"><a href="#product">Product</a></li>
-      <li class="link"><a href="#about">About</a></li>
+      <li class="link"><a href="#about">About Us</a></li>
       <li class="link"><a href="#price">Price</a></li>
       <li class="link"><a href="#review">Review</a></li>
     </ul>
-    <button class="btn">Join Now</button>
+    <!--que se abra en otra pesatania-->
+    <button class="btn">
+      <a href="https://pet-health.netlify.app/register" target="_blank">Sign Up</a></button>
   </nav>
 
   <header id="home" class="section__container header__container">
     <div class="header__content">
       <span class="bg__blur"></span>
       <span class="bg__blur header__blur"></span>
-      <h4>EL MEJOR CUIDADO PARA TU MASCOTA</h4>
-      <h1><span>CUIDA</span> LA SALUD DE TU MASCOTA</h1>
+      <h4>PROTEGE A TU MASCOTA</h4>
+      <h1>MONITOREA A TUS MASCOTAS EN <span>TIEMPO REAL</span></h1>
       <p>
-        Libera el potencial de cuidado para tu mascota y comienza un camino hacia un bienestar duradero. Regístrate
-        ahora en 'Cuida la Salud de Tu Mascota' y experimenta la transformación en el cuidado de la salud de tu amigo de
-        cuatro patas.
+        PetHealth revoluciona el cuidado de mascotas con nuestro innovador collar inteligente. Monitoriza la salud de tu
+        mascota, recibe alertas instantáneas y accede a servicios veterinarios con solo un clic. Únete hoy para asegurar
+        un futuro más saludable y seguro para tu amigo peludo.
       </p>
-      <button class="btn">Comenzar</button>
+      <button class="btn">
+        <a href="https://pet-health.netlify.app/register" target="_blank">Únete ahora</a>
+      </button>
     </div>
     <div class="header__image">
-      <img src="assets/header.png" alt="header" />
+      <img src="assets/header.png"
+        alt="Un perro usando el collar inteligente PetHealth en un entorno alegre y saludable" />
     </div>
   </header>
+
 
   <section id="product" class="section__container explore__container">
     <div class="explore__header">
       <h2 class="section__header">EXPLORA NUESTRO PRODUCTO</h2>
       <div class="explore__nav">
-        <span><i class="ri-arrow-left-line"></i></span>
+        <!--
+          <span><i class="ri-arrow-left-line"></i></span>
         <span><i class="ri-arrow-right-line"></i></span>
+        -->
       </div>
     </div>
     <div class="explore__grid">
@@ -108,7 +117,8 @@
         vanguardia que combina monitoreo en tiempo real con tecnología de diagnóstico avanzado. Cada característica está
         diseñada para mantenerte conectado con el bienestar de tu mascota y asegurar una gestión eficaz de su salud.
       </p>
-      <button class="btn">Adquirir Producto</button>
+      <button class="btn">
+        <a href="https://pet-health.netlify.app/register" target="_blank">Adquirir Producto</a></button>
     </div>
   </section>
 
@@ -149,67 +159,88 @@
   <section id="price" class="section__container price__container">
     <h2 class="section__header">NUESTROS PLANES</h2>
     <p class="section__subheader">
-      Nuestro plan de precios viene con varios niveles de membresía, cada uno diseñado para atender diferentes
-      preferencias y necesidades de cuidado para tu mascota.
+      Explora nuestros planes de suscripción, cada uno diseñado para ofrecer el mejor cuidado y monitoreo para tu
+      mascota.
     </p>
     <div class="price__grid">
       <div class="price__card">
         <div class="price__card__content">
-          <h4>Free</h4>
-          <h3>$0</h3>
+          <h4>Basic</h4>
+          <h3>$15/mes</h3>
           <p>
             <i class="ri-checkbox-circle-line"></i>
-            Monitoreo básico de salud
+            Monitoreo de actividad física
           </p>
           <p>
             <i class="ri-checkbox-circle-line"></i>
-            Alertas de salud
+            Alertas de salud básicas
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Informes de salud semanales
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Collar inteligente
           </p>
         </div>
-        <button class="btn price__btn">Unirse Ahora</button>
+        <button class="btn price__btn">
+          Unirse Ahora</button>
       </div>
       <div class="price__card">
         <div class="price__card__content">
           <h4>Premium</h4>
-          <h3>$25</h3>
+          <h3>$30/mes</h3>
           <p>
             <i class="ri-checkbox-circle-line"></i>
-            Funciones extendidas de monitoreo
+            Monitoreo de salud en tiempo real
           </p>
           <p>
             <i class="ri-checkbox-circle-line"></i>
-            Monitoreo básico de salud
+            Alertas de salud detalladas
           </p>
           <p>
             <i class="ri-checkbox-circle-line"></i>
-            Alertas de salud
+            Análisis de comportamiento
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Acceso a veterinarios online
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Collar inteligente
           </p>
         </div>
         <button class="btn price__btn">Unirse Ahora</button>
       </div>
       <div class="price__card">
         <div class="price__card__content">
-          <h4>Family</h4>
-          <h3>$45</h3>
+          <h4>Ultimate</h4>
+          <h3>$50/mes</h3>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Todos los beneficios de Premium
+          </p>
           <p>
             <i class="ri-checkbox-circle-line"></i>
             Monitoreo avanzado con diagnósticos
           </p>
           <p>
             <i class="ri-checkbox-circle-line"></i>
-            Funciones extendidas de monitoreo
-          </p>
-          <p>
-            <i class="ri-checkbox-circle-line"></i>
-            Monitoreo básico de salud
-          </p>
-          <p>
-            <i class="ri-checkbox-circle-line"></i>
-            Alertas de salud
-          </p>
-          <p>
-            <i class="ri-checkbox-circle-line"></i>
             Integración con veterinarios afiliados
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Servicio de emergencia 24/7
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Informes de salud personalizados
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Collar inteligente
           </p>
         </div>
         <button class="btn price__btn">Unirse Ahora</button>
@@ -223,7 +254,10 @@
       <div class="review__content">
         <h4>RESEÑA</h4>
         <p>
-          "Utilizar este collar ha transformado completamente la forma en que cuido de mi gato. Los sensores son increíblemente precisos y me tranquiliza saber que puedo monitorear su salud en cualquier momento. Lo mejor es recibir alertas inmediatas si algo no va bien, lo que nos ha ayudado a prevenir situaciones de emergencia más de una vez".
+          "Utilizar este collar ha transformado completamente la forma en que cuido de mi gato. Los sensores son
+          increíblemente precisos y me tranquiliza saber que puedo monitorear su salud en cualquier momento. Lo mejor es
+          recibir alertas inmediatas si algo no va bien, lo que nos ha ayudado a prevenir situaciones de emergencia más
+          de una vez".
         </p>
         <div class="review__rating">
           <span><i class="ri-star-fill"></i></span>
@@ -255,12 +289,16 @@
     <div class="footer__col">
       <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
       <p>
-        Da el primer paso hacia un cuidado más saludable y seguro para tu mascota con nuestros planes de precios inigualables. ¡Cuida, protege y mejora la salud de tu mejor amigo!
+        Da el primer paso hacia un cuidado más saludable y seguro para tu mascota con nuestros planes de precios
+        inigualables. ¡Cuida, protege y mejora la salud de tu mejor amigo!
       </p>
       <div class="footer__socials">
-        <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank"><i class="ri-facebook-fill"></i></a>
-        <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank"><i class="ri-instagram-line"></i></a>
-        <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank"><i class="ri-twitter-fill"></i></a>
+        <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank"><i
+            class="ri-facebook-fill"></i></a>
+        <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank"><i
+            class="ri-instagram-line"></i></a>
+        <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank"><i
+            class="ri-twitter-fill"></i></a>
       </div>
     </div>
     <div class="footer__col">
@@ -268,7 +306,8 @@
       <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Negocios</a>
       <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Franquicias</a>
       <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Asociaciones</a>
-      <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Red de Atención Veterinaria</a>
+      <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Red de Atención
+        Veterinaria</a>
     </div>
     <div class="footer__col">
       <h4>Sobre Nosotros</h4>
@@ -281,7 +320,8 @@
       <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Contáctanos</a>
       <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Política de Privacidad</a>
       <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Términos y Condiciones</a>
-      <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Calculadora de Salud para Mascotas</a>
+      <a href="https://www.linkedin.com/in/fredy-antonio-almeyda-alania/" target="_blank">Calculadora de Salud para
+        Mascotas</a>
     </div>
   </footer>
 
